@@ -1,0 +1,9 @@
+<h1>Inventory</h1>
+<h3>Please select</h3>
+<div *ngFor="let fruit of fruits">
+  <span>
+    <img src="../../assets/fruits/{{ fruit }}.png" alt="" srcset="" />
+  </span>
+  <span>{{ fruit | uppercase }}</span>
+  <button type="button" (click)="addToCart(fruit)">Add</button>
+</div>

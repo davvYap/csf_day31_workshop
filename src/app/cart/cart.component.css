@@ -1,0 +1,22 @@
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.cartTemp {
+  text-align: left;
+}
+
+img {
+  height: 50px;
+  width: auto;
+}
+button {
+  margin-left: 10px;
+}
+
+.app-inventory,
+table {
+  width: 30vw;
+}
